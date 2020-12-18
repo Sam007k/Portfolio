@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins';
+    line-height: 1.5;
+    background: #fff;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;    
+}
+
+.container{
+    width: 100%;
+
+}
+
+/* Nav */
+
+nav i {
+    font-size: 3rem;    
+    padding: 1rem;
+}
+
+/* Profile */
+
+.profile {
+    padding-top: 2rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    color: #8ca5c0;
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+    
+    h1,p,img{
+        padding: 1rem;
+
+    }
+
+    img{     
+        width: 250px; 
+        height: 250px;  
+        object-fit: cover;
+        border-radius: 100%;               
+        margin: 0 auto;
+       
+
+    }
+}
+
+
+
+.intro{
+    background-color: rgb(43, 48, 71);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    
+    h1,p{
+        padding: 2rem 0 1rem 0;
+        max-width: 70%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.work{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 3rem 0;
+
+    h2,h3{
+        color:#8ca5c0;
+        padding-bottom: 1rem;
+    }
+    a{
+        padding: 1rem;       
+    }
+
+    img,a,p{
+        border-radius: 10px;
+        max-height: 480px;
+        width: 600px;
+        padding-bottom:10px;
+    }
+
+    
+    p{        
+        background: rgb(43, 48, 71);
+        border-radius: 10px;
+        max-height: 480px;
+        width: 600px;
+        padding:15px 20px;
+        color: #fff;
+        max-width: 70%;
+       }
+
+
+}
+
+.buttons{
+   
+
+   margin-top: 3rem;
+   display: flex;
+   gap: 2rem; 
+
+    .btn{    
+        width: 100px;         
+        background:  rgb(43, 48, 71);
+        color: #fff;       
+        padding: 0.8rem 2rem;
+        border:none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+      }
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: #8ca5c0;
+}
+
+.contact{   
+    display: flex;
+    justify-content: center;    
+    padding: 1.5rem;
+
+    a{
+        flex-direction: row;
+        padding: 1rem;
+        font-size: 30px;
+
+        .linkedin{
+            color:rgb(44, 48, 58);
+        }
+
+        .github{
+            color: rgb(44, 48, 58);
+        }
+    }
+}
+
+// for mobile view 
+
+@media(max-width:800px){
+    .profile{
+        h1{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    .intro{
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.5rem;
+        }
+    }
+
+    .work{
+        img{
+       padding: 0 5rem;
+        }
+        p{
+            padding: 0 3rem;
+            font-size: 1rem;
+        }
+    }
+}
