@@ -41,7 +41,9 @@ a {
   font-weight: bold;
 }
 
-.profile h1, .profile p, .profile img {
+.profile h1,
+.profile p,
+.profile img {
   padding: 1rem;
 }
 
@@ -65,13 +67,16 @@ a {
   padding: 1rem;
 }
 
-.intro h1, .intro p {
-  padding: 2rem 0 1rem 0;
+.intro h1,
+.intro p {
   color: #fff;
 }
 
 .intro p {
   font-size: 1rem;
+  text-align: center;
+  padding: 0 4rem;
+  margin: 1rem 0 2rem;
 }
 
 .work {
@@ -79,7 +84,8 @@ a {
   padding: 3rem 0;
 }
 
-.work h2, .work h3 {
+.work h2,
+.work h3 {
   color: #8ca5c0;
   padding-bottom: 1rem;
   padding: 1rem;
@@ -116,7 +122,8 @@ a {
   padding: 1rem;
 }
 
-.work .projects .project img, .work .projects .project a {
+.work .projects .project img,
+.work .projects .project a {
   border-radius: 10px;
   height: 200px;
   width: 90%;
